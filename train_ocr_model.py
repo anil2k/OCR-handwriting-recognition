@@ -6,9 +6,9 @@ import matplotlib
 matplotlib.use("Agg")
 
 # import the necessary packages
-from pyimagesearch.models import ResNet
-from pyimagesearch.az_dataset import load_mnist_dataset
-from pyimagesearch.az_dataset import load_az_dataset
+from customlib.models import ResNet
+from customlib.az_dataset import load_mnist_dataset
+from customlib.az_dataset import load_az_dataset
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.optimizers import SGD
 from sklearn.preprocessing import LabelBinarizer
